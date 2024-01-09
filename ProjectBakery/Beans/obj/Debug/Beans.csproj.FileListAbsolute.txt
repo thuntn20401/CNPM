@@ -1,0 +1,9 @@
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\bin\Debug\Beans.dll
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\bin\Debug\Beans.pdb
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\bin\Debug\DBProvider.dll
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\bin\Debug\DBProvider.pdb
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\obj\Debug\Beans.csproj.AssemblyReference.cache
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\obj\Debug\Beans.csproj.CoreCompileInputs.cache
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\obj\Debug\Beans.csproj.CopyComplete
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\obj\Debug\Beans.dll
+H:\CongNghePhanMem_HK1\ProjectBakery\Beans\obj\Debug\Beans.pdb

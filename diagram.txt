@@ -1,0 +1,6 @@
+include: mô tả use case lớn chia thành use case nhỏ hoặc thể hiện sự dùng lại
+
+extend: mô tả quan hệ giữa 2 use case, được sử dụng khi có 1 use case được tạo ra
+để bổ sung chức năng cho 1 use case có sẵn và sửa dụng trong 1 đk nhất định
+
+Generalization: sử dụng thể hiện quan hệ thừa kế giữa các actor và use case

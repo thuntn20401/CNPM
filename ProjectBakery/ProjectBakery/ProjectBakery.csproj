@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09713551-7E84-4675-BB2A-1EEABD32A52B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectBakery</RootNamespace>
+    <AssemblyName>ProjectBakery</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAKERYDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BAKERYDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\changePasswordView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\changePasswordView.Designer.cs">
+      <DependentUpon>changePasswordView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSKhachHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSKhachHang.Designer.cs">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSNhanVien.Designer.cs">
+      <DependentUpon>DSNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\DSSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\DSSanPham.Designer.cs">
+      <DependentUpon>DSSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\GioHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\GioHang.Designer.cs">
+      <DependentUpon>GioHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormCustomer.Designer.cs">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormViewCNPM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\MainFormViewCNPM.Designer.cs">
+      <DependentUpon>MainFormViewCNPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\QuanLyDonHangCaNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\QuanLyDonHangCaNhan.Designer.cs">
+      <DependentUpon>QuanLyDonHangCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\ThongKeBaoCao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\ThongKeBaoCao.Designer.cs">
+      <DependentUpon>ThongKeBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\ThongTinTaiKhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\ThongTinTaiKhoan.Designer.cs">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI Layer\TimKiemSanPhamTheoTen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI Layer\TimKiemSanPhamTheoTen.Designer.cs">
+      <DependentUpon>TimKiemSanPhamTheoTen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI Layer\changePasswordView.resx">
+      <DependentUpon>changePasswordView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSKhachHang.resx">
+      <DependentUpon>DSKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSNhanVien.resx">
+      <DependentUpon>DSNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\DSSanPham.resx">
+      <DependentUpon>DSSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\GioHang.resx">
+      <DependentUpon>GioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainFormCustomer.resx">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\MainFormViewCNPM.resx">
+      <DependentUpon>MainFormViewCNPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\QuanLyDonHangCaNhan.resx">
+      <DependentUpon>QuanLyDonHangCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\ThongKeBaoCao.resx">
+      <DependentUpon>ThongKeBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\ThongTinTaiKhoan.resx">
+      <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI Layer\TimKiemSanPhamTheoTen.resx">
+      <DependentUpon>TimKiemSanPhamTheoTen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BAKERYDataSet.xsc">
+      <DependentUpon>BAKERYDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BAKERYDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BAKERYDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BAKERYDataSet.xss">
+      <DependentUpon>BAKERYDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Beans\Beans.csproj">
+      <Project>{cedfe615-95e1-4db4-99bd-e57342b3f598}</Project>
+      <Name>Beans</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{f9733911-5d27-4bc6-a437-f5a1c008d8fb}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBProvider\DBProvider.csproj">
+      <Project>{d1194aba-069f-4eaa-9bb3-618bc52794a2}</Project>
+      <Name>DBProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\icons8_accounting_32px_1.png" />
+    <None Include="resources\icons8_wedding_cake_64px_11.png" />
+    <None Include="resources\icons8_user_125px1.png" />
+    <None Include="resources\icons8_user_96px_11.png" />
+    <None Include="resources\icons8_user_24px_71.png" />
+    <None Include="resources\icons8_shutdown_32px1.png" />
+    <None Include="resources\icons8_shopping_cart_32px1.png" />
+    <None Include="resources\icons8_search_more_32px1.png" />
+    <None Include="resources\icons8_search_25px1.png" />
+    <None Include="resources\icons8_product_32px1.png" />
+    <None Include="resources\icons8_password_32px1.png" />
+    <None Include="resources\icons8_order_history_32px1.png" />
+    <None Include="resources\icons8_more_info_32px_21.png" />
+    <None Include="resources\icons8_list_64px1.png" />
+    <None Include="resources\icons8_home_50px1.png" />
+    <None Include="resources\icons8_home_32px1.png" />
+    <None Include="resources\icons8_employee_32px1.png" />
+    <None Include="resources\icons8_deliver_food_64px1.png" />
+    <None Include="resources\icons8_customer_32px1.png" />
+    <None Include="resources\icons8_cupcake_25px_11.png" />
+    <None Include="resources\icons8_copyright_32px_11.png" />
+    <None Include="resources\icons8_copyright_25px_21.png" />
+    <None Include="resources\icons8_contact_details_32px1.png" />
+    <None Include="resources\icons8_categorize_32px_11.png" />
+    <None Include="resources\icons8_add_user_male_125px1.png" />
+    <None Include="resources\icons8_accounting_32px_11.png" />
+    <Content Include="resources\icons8_add_user_male_125px.png" />
+    <Content Include="resources\icons8_categorize_32px_1.png" />
+    <Content Include="resources\icons8_contact_details_32px.png" />
+    <Content Include="resources\icons8_copyright_25px_2.png" />
+    <Content Include="resources\icons8_copyright_32px_1.png" />
+    <Content Include="resources\icons8_cupcake_25px_1.png" />
+    <Content Include="resources\icons8_customer_32px.png" />
+    <Content Include="resources\icons8_deliver_food_64px.png" />
+    <Content Include="resources\icons8_employee_32px.png" />
+    <Content Include="resources\icons8_home_32px.png" />
+    <Content Include="resources\icons8_home_50px.png" />
+    <Content Include="resources\icons8_list_64px.png" />
+    <Content Include="resources\icons8_more_info_32px_2.png" />
+    <Content Include="resources\icons8_order_history_32px.png" />
+    <Content Include="resources\icons8_password_32px.png" />
+    <Content Include="resources\icons8_product_32px.png" />
+    <Content Include="resources\icons8_search_25px.png" />
+    <Content Include="resources\icons8_search_more_32px.png" />
+    <Content Include="resources\icons8_shopping_cart_32px.png" />
+    <Content Include="resources\icons8_shutdown_32px.png" />
+    <Content Include="resources\icons8_user_125px.png" />
+    <Content Include="resources\icons8_user_24px_7.png" />
+    <Content Include="resources\icons8_user_96px_1.png" />
+    <Content Include="resources\icons8_wedding_cake_64px_1.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

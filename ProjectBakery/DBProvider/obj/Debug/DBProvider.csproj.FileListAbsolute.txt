@@ -1,0 +1,6 @@
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\bin\Debug\DBProvider.dll
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\bin\Debug\DBProvider.pdb
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\obj\Debug\DBProvider.csproj.AssemblyReference.cache
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\obj\Debug\DBProvider.csproj.CoreCompileInputs.cache
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\obj\Debug\DBProvider.dll
+H:\CongNghePhanMem_HK1\ProjectBakery\DBProvider\obj\Debug\DBProvider.pdb

@@ -1,0 +1,1 @@
+chức năng ->use case -> sequences diagram
